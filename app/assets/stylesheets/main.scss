@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+.title {
+  font-family: 'Galada', cursive;
+  color: #EC4401;
+}
+
+.accent-text {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+.gray-box {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  background-color: #D5D2C8;
+}
+
+.block {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0 8px 6px -6px gray;
+  float:left;
+  margin-left: 4%;
+  margin-bottom: 3%;
+}
+.container  {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.small-title {
+  font-family: 'Galada', cursive;
+  color: #EC4401;
+}
