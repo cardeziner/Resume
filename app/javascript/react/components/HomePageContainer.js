@@ -1,16 +1,14 @@
 import React from 'react'
+import ProfileContainer from './ProfileContainer'
+import SampleBox from './SampleBox'
+import image from '../../../assets/images/profilepic.png'
 
 const HomePageContainer = (props) =>{
   return(
-    <div className="gray-box">
-      <h1 className="accent-text">
-        Welcome
-      </h1>
-        <div className="container">
-          <div class="block"><h5 className="small-title">Hello</h5></div>
-          <div class="block"><h5 className="small-title">Hello</h5></div>
-          <div class="block"><h5 className="small-title">Hello</h5>
-        </div>
+    <div>
+      <div className="profile-box">
+      <h2 className="title-1">About Me</h2>
+      <img src={image}/>
       </div>
     </div>
   )

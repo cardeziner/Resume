@@ -7,11 +7,26 @@
   color: #EC4401;
 }
 
+.title-1 {
+  font-family: 'Galada', cursive;
+  color: #EC4401;
+  margin-left: 2%;
+}
+
 .accent-text {
   font-family: 'Lato', sans-serif;
   color: white;
-  padding-left: 2%;
-  padding-top: 1%;
+  padding-left: 4%;
+  padding-top: 2%;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 75%;
+  display: block;
+  margin: auto;
 }
 
 .gray-box {
@@ -19,6 +34,16 @@
   left: 2%;
   right: 2%;
   background-color: #D5D2C8;
+}
+
+.profile-box {
+  position: absolute;
+  border-style: groove;
+  border-radius: 4px;
+  left: 30%;
+  right: 30%;
+  border-color: #25232D;
+  border-width: 1px;
 }
 
 .block {
@@ -29,6 +54,7 @@
   box-shadow: 0 8px 6px -6px gray;
   float:left;
   margin-left: 4%;
+  margin-right: 4%;
   margin-bottom: 3%;
 }
 .container  {
