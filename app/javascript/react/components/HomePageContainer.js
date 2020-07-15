@@ -10,8 +10,6 @@ const HomePageContainer = (props) =>{
       <h2 className="title-1">About Me</h2>
       <img src={image}/>
       </div>
-      <SampleBox
-      />
     </div>
   )
 }
