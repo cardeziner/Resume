@@ -5,6 +5,7 @@ const ProfileContainer = (props) =>{
   return(
     <div className="profile-box">
     <img src={image}/>
+      
     </div>
   )
 }
