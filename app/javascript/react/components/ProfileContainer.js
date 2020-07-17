@@ -4,8 +4,7 @@ import image from '../../../assets/images/profilepic.png'
 const ProfileContainer = (props) =>{
   return(
     <div className="profile-box">
-    <img src={image}/>
-      
+      <img src={image}/>
     </div>
   )
 }

@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .title {
   font-family: 'Galada', cursive;
   color: #EC4401;
+}
+
+.title:hover {
+  background-color: #EC4401;
+  color: white;
+  text-decoration: none;
 }
 
 .title-1 {
@@ -22,13 +29,35 @@
   padding-top: 2%;
 }
 
-.col-color{
-  background-color: red;
+.padding {
+  padding-right: 40px;
+  font-family: 'Galada', cursive;
+  color: #EC4401;
+  text-decoration: none;
+}
+
+.padding:hover {
+  color: #EC4401;
+  text-decoration: none;
+}
+
+.western {
+  font-family: 'Ewert', cursive;
+  color: white;
+}
+
+.vr {
+    width:10px;
+    background-color:#000;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:150px;
 }
 
 img {
   border: 1px solid #ddd;
-  border-radius: 80px;
+  border-radius: 20px;
   padding: 10px;
   width: 200px;
   display: block;
@@ -39,6 +68,12 @@ img {
   font-family: 'Merriweather', serif;
 }
 
+.title-center {
+  font-family: 'Galada', cursive;
+  color: #EC4401;
+  position: absolute;
+  text-align: center;
+}
 .gray-box {
   position: absolute;
   left: 2%;
@@ -47,13 +82,12 @@ img {
 }
 
 .profile-box {
+  background-color: #363636;
   position: absolute;
-  border-style: groove;
-  border-radius: 4px;
+  border-radius: 10px;
   left: 30%;
   right: 30%;
-  border-color: #25232D;
-  border-width: 1px;
+  box-shadow: 0 8px 6px -6px gray;
 }
 
 .block {
