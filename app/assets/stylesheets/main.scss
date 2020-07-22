@@ -3,11 +3,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.background {
+  background-color: #E7EDEA;
+}
 
 .title {
   font-family: 'Galada', cursive;
   color: #EC4401;
+}
+
+.bold {
+  font-family: 'Alegreya SC', serif;
+}
+
+.soft {
+  font-family: 'Roboto', sans-serif;
+}
+.light{
+  font-family: 'Roboto', sans-serif;
+}
+.border{
+  color: black;
+  background: white;
+  text-align: left;
+  position:inherit;
+  padding: 4%;
+}
+
+.list{
+  overflow: hidden;
+}
+
+.left{
+  float: left;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1/2;
+}
+
+.right {
+    overflow: hidden;
+    grid-row: 1;
+    grid-column: 2/2;
+}
+
+.top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid white;
+}
+
+.bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 8px 6px -6px gray;
 }
 
 .title:hover {
@@ -57,12 +111,16 @@
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 20px;
-  padding: 10px;
-  width: 200px;
+  box-shadow: 0 8px 6px -6px gray;
   display: block;
   margin: auto;
+}
+
+.spacing {
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 .text-1 {
@@ -111,4 +169,8 @@ img {
 .small-title {
   font-family: 'Galada', cursive;
   color: #EC4401;
+}
+
+.center{
+  text-align: center;
 }
