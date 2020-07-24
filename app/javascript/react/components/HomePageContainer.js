@@ -16,6 +16,8 @@ const HomePageContainer = (props) =>{
             <div className="row col">
               <div className="col-6"><h3 className="bold center">age</h3><h4 className="soft center">30 y/o</h4></div>
               <div className="col-6"><h3 className="bold left">location</h3><h4 className="soft center">Denver</h4></div>
+              <div className="col-12"><h3 className="bold left center">learning institution</h3></div>
+              <div className="col-12"><h4 className="soft left center">Launch Academy, Boston</h4></div>
             </div>
           </div>
         </div>
