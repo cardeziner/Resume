@@ -11,15 +11,15 @@ const HomePageContainer = (props) =>{
         <div className="top border">
           <h1 className="bold">personal details</h1>
         </div>
-        <img src={image}/>
-          <div className="border">
-            <div className="row">
-              <div className="column"><h2 className="bold left">age</h2><br></br><h2 className="bold left">location</h2></div>
-              <div className="column right"><h4 className="soft right">30</h4><br></br><h4 className="soft right">Denver Colorado</h4><br></br></div>
+        <img className="bottom top" src={image}/>
+          <div className="border bottom">
+            <div className="row col">
+              <div className="col-6"><h3 className="bold center">age</h3><h4 className="soft center">30 y/o</h4></div>
+              <div className="col-6"><h3 className="bold left">location</h3><h4 className="soft center">Denver</h4></div>
             </div>
           </div>
-          </div>
-      <div className="col-8">Hello</div>
+        </div>
+      <div className="col-8 border">Hello</div>
     </div>
   )
 }
