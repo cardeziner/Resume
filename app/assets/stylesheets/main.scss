@@ -30,25 +30,19 @@
 .border{
   color: black;
   background: white;
-  text-align: left;
-  position:inherit;
-  padding: 4%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
 }
 
 .list{
   overflow: hidden;
-}
-
-.left{
-  float: left;
-  text-align: center;
-  padding-left: 12.5%;
-}
-
-.right {
-    overflow: hidden;
-    text-align: right;
-    padding-right: 10%;
+  box-shadow: 0 0 0 0 white;
 }
 
 .top {
@@ -61,6 +55,7 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 0 8px 6px -6px gray;
+  padding-bottom: 5px;
 }
 
 .title:hover {
@@ -84,7 +79,6 @@
 
 .padding {
   margin-top: 7.5%;
-  padding-right: 40px;
   font-family: 'Galada', cursive;
   color: #EC4401;
   text-decoration: none;
@@ -95,6 +89,10 @@
   text-decoration: none;
 }
 
+a {
+  padding-top: 10px;
+  text-align: center;
+}
 .western {
   font-family: 'Ewert', cursive;
   color: white;
@@ -106,14 +104,21 @@
     position:absolute;
     top:0;
     bottom:0;
-    left:150px;
 }
 
-img {
-  box-shadow: 0 8px 6px -6px gray;
-  display: block;
-  margin: auto;
+hr {
+  width: 80%;
+  margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  color: gray;
 }
+
+.row {
+  text-align: center;
+}
+
+
 
 .spacing {
   padding-left: 5%;
@@ -129,7 +134,6 @@ img {
 .title-center {
   font-family: 'Galada', cursive;
   color: #EC4401;
-  position: absolute;
   text-align: center;
 }
 .gray-box {
@@ -141,10 +145,9 @@ img {
 
 .profile-box {
   background-color: #363636;
-  position: absolute;
   border-radius: 10px;
-  left: 30%;
-  right: 30%;
+  left: 50%;
+  right: 50%;
   box-shadow: 0 8px 6px -6px gray;
 }
 
@@ -155,14 +158,12 @@ img {
   background-color: white;
   box-shadow: 0 8px 6px -6px gray;
   float:left;
-  margin-left: 4%;
-  margin-right: 4%;
   margin-bottom: 3%;
+  display: flex;
 }
 .container  {
-  justify-content: center;
-  display: flex;
   text-align: center;
+  display: flex;
 }
 
 .small-title {
@@ -170,6 +171,22 @@ img {
   color: #EC4401;
 }
 
+col-3 {
+  left: 50%;
+  padding-bottom: 5%;
+}
+
+.bot-pad {
+  padding-bottom: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+col-3:hover {
+  box-shadow: 0 8px 6px -6px gray;
+}
+
 .center{
-  text-align: center;
+  left: center;
+  right: center;
 }
