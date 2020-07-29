@@ -14,7 +14,7 @@
 
 .title {
   font-family: 'Galada', cursive;
-  color: #EC4401;
+  color: #DB1414;
 }
 
 .bold {
@@ -30,9 +30,18 @@
 .border{
   color: black;
   background: white;
-  text-align: center;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.borders {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 8px 6px -6px gray;
+  padding-bottom: 5px;
+  background-color: white;
 }
 
 .logo {
@@ -55,12 +64,6 @@
   border-bottom-right-radius: 5px;
   box-shadow: 0 8px 6px -6px gray;
   padding-bottom: 5px;
-}
-
-.title:hover {
-  background-color: #EC4401;
-  color: white;
-  text-decoration: none;
 }
 
 .title-1 {
@@ -117,7 +120,9 @@ hr {
   text-align: center;
 }
 
+.header-1 {
 
+}
 
 .spacing {
   padding-left: 5%;
@@ -184,6 +189,10 @@ col-3 {
 img:hover {
   border: 2px solid #FABE28;
   border-radius: 5px;
+}
+
+.left {
+  text-align: left;
 }
 
 .center{
