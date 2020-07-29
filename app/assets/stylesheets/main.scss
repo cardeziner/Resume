@@ -9,12 +9,12 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .background {
-  background-color: #E7EDEA;
+  background-color: #CCCCCC;
 }
 
 .title {
   font-family: 'Galada', cursive;
-  color: #EC4401;
+  color: #333333;
 }
 
 .bold {
@@ -30,49 +30,63 @@
 .border{
   color: black;
   background: white;
-  text-align: left;
-  position:inherit;
-  padding: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.borders {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 8px 6px -6px gray;
+  padding-bottom: 5px;
+  background-color: white;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
 }
 
 .list{
   overflow: hidden;
-}
-
-.left{
-  float: left;
-  text-align: center;
-  grid-row: 1;
-  grid-column: 1/2;
-}
-
-.right {
-    overflow: hidden;
-    grid-row: 1;
-    grid-column: 2/2;
+  box-shadow: 0 0 0 0 white;
 }
 
 .top {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border: 1px solid white;
+}
+
+.inline-block {
+  padding-top: 2.5%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-bottom: 2.5%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .bottom {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 0 8px 6px -6px gray;
+  padding-bottom: 5px;
 }
 
-.title:hover {
-  background-color: #EC4401;
-  color: white;
-  text-decoration: none;
+.aboutme {
+  width: 200px;
+  height: 50px;
+}
+
+.padding-top {
+  padding-top: 1%;
+  text-align: left;
 }
 
 .title-1 {
   font-family: 'Galada', cursive;
-  color: #EC4401;
+  color: #333333;
   margin-left: 2%;
 }
 
@@ -85,7 +99,6 @@
 
 .padding {
   margin-top: 7.5%;
-  padding-right: 40px;
   font-family: 'Galada', cursive;
   color: #EC4401;
   text-decoration: none;
@@ -96,6 +109,10 @@
   text-decoration: none;
 }
 
+a {
+  padding-top: 10px;
+  text-align: center;
+}
 .western {
   font-family: 'Ewert', cursive;
   color: white;
@@ -107,13 +124,20 @@
     position:absolute;
     top:0;
     bottom:0;
-    left:150px;
 }
 
-img {
-  box-shadow: 0 8px 6px -6px gray;
-  display: block;
-  margin: auto;
+hr {
+  width: 100%;
+  text-align: center;
+  color: gray;
+}
+
+.row {
+  text-align: center;
+}
+
+.header-1 {
+
 }
 
 .spacing {
@@ -125,12 +149,12 @@ img {
 
 .text-1 {
   font-family: 'Merriweather', serif;
+  color: #333333;
 }
 
 .title-center {
   font-family: 'Galada', cursive;
   color: #EC4401;
-  position: absolute;
   text-align: center;
 }
 .gray-box {
@@ -142,10 +166,9 @@ img {
 
 .profile-box {
   background-color: #363636;
-  position: absolute;
   border-radius: 10px;
-  left: 30%;
-  right: 30%;
+  left: 50%;
+  right: 50%;
   box-shadow: 0 8px 6px -6px gray;
 }
 
@@ -156,14 +179,12 @@ img {
   background-color: white;
   box-shadow: 0 8px 6px -6px gray;
   float:left;
-  margin-left: 4%;
-  margin-right: 4%;
   margin-bottom: 3%;
+  display: flex;
 }
 .container  {
-  justify-content: center;
-  display: flex;
   text-align: center;
+  display: flex;
 }
 
 .small-title {
@@ -171,6 +192,27 @@ img {
   color: #EC4401;
 }
 
+col-3 {
+  left: 50%;
+  padding-bottom: 5%;
+}
+
+.bot-pad {
+  padding-bottom: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+img:hover {
+  border: 2px solid #FABE28;
+  border-radius: 5px;
+}
+
+.left {
+  text-align: left;
+}
+
 .center{
-  text-align: center;
+  left: center;
+  right: center;
 }
