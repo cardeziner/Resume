@@ -9,7 +9,7 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .background {
-  background-color: #E7EDEA;
+  background-color: #CCCCCC;
 }
 
 .title {
@@ -48,7 +48,6 @@
 .top {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border: 1px solid white;
 }
 
 .bottom {
@@ -182,8 +181,9 @@ col-3 {
   padding-right: 4%;
 }
 
-col-3:hover {
-  box-shadow: 0 8px 6px -6px gray;
+img:hover {
+  border: 2px solid #FABE28;
+  border-radius: 5px;
 }
 
 .center{

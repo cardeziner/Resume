@@ -32,7 +32,7 @@ const HomePageContainer = (props) =>{
             </div>
           </div>
         </div>
-      <div className="col-8 border">Hello</div>
+      <div className="col-8 border top bottom left">Hello</div>
     </div>
   )
 }
