@@ -14,7 +14,7 @@
 
 .title {
   font-family: 'Galada', cursive;
-  color: #DB1414;
+  color: #333333;
 }
 
 .bold {
@@ -59,6 +59,14 @@
   border-top-right-radius: 5px;
 }
 
+.inline-block {
+  padding-top: 2.5%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-bottom: 2.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
 .bottom {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -66,9 +74,19 @@
   padding-bottom: 5px;
 }
 
+.aboutme {
+  width: 200px;
+  height: 50px;
+}
+
+.padding-top {
+  padding-top: 1%;
+  text-align: left;
+}
+
 .title-1 {
   font-family: 'Galada', cursive;
-  color: #EC4401;
+  color: #333333;
   margin-left: 2%;
 }
 
@@ -109,10 +127,8 @@ a {
 }
 
 hr {
-  width: 80%;
-  margin-right: auto;
+  width: 100%;
   text-align: center;
-  margin-left: auto;
   color: gray;
 }
 
@@ -133,6 +149,7 @@ hr {
 
 .text-1 {
   font-family: 'Merriweather', serif;
+  color: #333333;
 }
 
 .title-center {
