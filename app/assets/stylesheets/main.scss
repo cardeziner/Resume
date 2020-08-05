@@ -12,6 +12,10 @@
   background-color: #CCCCCC;
 }
 
+h1 {
+  vertical-align: middle;
+}
+
 .title {
   font-family: 'Galada', cursive;
   color: #CCCCCC;
@@ -36,32 +40,48 @@
 
 .green-box{
   background-color: #88C100;
-  border-radius: 5%;
+  border-radius: 6%;
   font-family: 'Alegreya SC', serif;
   color: white;
   padding: 10%;
   border: 10px solid white;
-  height: auto;
+  height: 200px;
+}
+
+.green-box:hover{
+  background-color: #B4DF37;
 }
 
 .yellow-box{
   background-color: #FABE28;
-  border-radius: 5%;
+  border-radius: 6%;
   font-family: 'Alegreya SC', serif;
   color: white;
   padding: 10%;
   border: 10px solid white;
-  height: auto;
+  height: 200px;
+}
+
+.yellow-box:hover {
+  background-color: #F6D86B;
+}
+
+.right{
+  float: right;
 }
 
 .orange-box{
   background-color: #FF8A00;
-  border-radius: 5%;
+  border-radius: 6%;
   font-family: 'Alegreya SC', serif;
   color: white;
   padding: 10%;
   border: 10px solid white;
-  height: auto;
+  height: 200px;
+}
+
+.orange-box:hover{
+  background-color: #F8A13F;
 }
 
 .borders {
@@ -166,10 +186,6 @@ hr {
   text-align: center;
 }
 
-.header-1 {
-
-}
-
 .spacing {
   padding-left: 5%;
   padding-top: 5%;
@@ -245,4 +261,9 @@ img:hover {
 .center{
   left: center;
   right: center;
+}
+
+.mid{
+align-items: center;
+vertical-align: middle;
 }

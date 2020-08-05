@@ -1,5 +1,6 @@
 import React from 'react'
 import ProfileContainer from './ProfileContainer'
+import EducationComponent from './EducationComponent'
 import SampleBox from './SampleBox'
 import selfphoto from '../../../assets/images/profilepic.png'
 import github from '../../../assets/images/github.png'
@@ -7,6 +8,7 @@ import linkedin from '../../../assets/images/linkedin.png'
 import facebook from '../../../assets/images/facebook.png'
 import launch from '../../../assets/images/launch.png'
 import aboutme from '../../../assets/images/aboutme.jpeg'
+import { Link } from 'react-router-dom'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -21,7 +23,7 @@ const HomePageContainer = (props) =>{
         <img className="top" src={selfphoto}/>
           <div className="border bottom">
             <div className="row col">
-              <div className="col-6"><h3 className="bold center">age</h3><h4 className="soft center">30 y/o</h4></div>
+              <div className="col-6"><h3 className="bold center">Level</h3><h4 className="soft center">Jr. Developer</h4></div>
               <div className="col-6"><h3 className="bold center">location</h3><h4 className="soft center">Denver</h4></div>
               <div className="col-12"><h3 className="bold center">learning institution</h3></div>
               <div className="col-12"><h4 className="soft center">Launch Academy, Boston</h4></div><hr className="center"/>
@@ -37,19 +39,20 @@ const HomePageContainer = (props) =>{
       <div className="col-8 borders">
         <div>
           <h1 className="bold padding-top aboutme">about me</h1><hr className="center"/>
-          <h5 className="inline-block">Hello! My name is Peter Stevens and I am originally from Boston, MA, but have recently moved back to Denvert. In my spare time, I like to go on hikes, I love camping, and I love just spending time outdoors, so its no suprise how I have recently just moved back to Denver!  I have recently graduated from a full-stack development boot camp program at Launch Academy, and I am very excited to begin a new career in software development.</h5>
-          <h5 className="inline-block">As I am looking for new opportunities and potential teams to join to grow my knowledge and expand my skills, I have been also trying to find a role that also excites me. I am currently looking for an opportunity where I am able to expand my skills with similar technologies I have already become accustomed to using and looking for opportunities to learn new technologies as well</h5>
-          <h5 className="inline-block">As I have been working on improving my skills throughout my time since graduation, I have worked to learn new technologies and coding strategies which include working with Express, improving my front-end capabilities, and I have also been attending a number of tech events to stay in the loop with whats going on in the industry, and to learn about new ways to implement my code. I would like to thank you for taking the time to look at my website, and I look forward to you getting to learn a little more about me! to learn more about myself and my coding experience so far, feel free to visit my <a href="https://launchpass.launchacademy.com/users/PeterStevens/launcher_profile"> Launcher Profile</a>!</h5>
-
+          <h5 className="inline-block">Hello! My name is Peter Stevens and I am originally from Boston, MA, but have recently moved back to Denver. In my spare time, I like to go on hikes, I love camping, and I love just spending time outdoors, so its no suprise how I have recently just moved back to Denver!  I have recently graduated from a full-stack development boot camp program at Launch Academy, and I am very excited to begin a new career in software development.</h5>
+          <h5 className="inline-block">As I am looking for new opportunities and potential teams to join to grow my knowledge and expand my skills, I have been also trying to find a role that also excites me. I am currently looking for an opportunity where I am able to expand my skills with similar technologies I have already become accustomed to using and looking for opportunities to learn new technologies as well. I enjoy working with teams as well as individually, and love a good challenge.</h5>
+          <h5 className="inline-block">Recently, I have been working on improving my skills throughout my time since graduation by learning new technologies and coding strategies which include working with Express, improving my front-end capabilities, and I have also been attending a number of tech events to stay in the loop with whats going on in the industry, and to learn about new ways to make my code more efficient and RESTful. I would like to thank you for taking the time to look at my website, and I look forward to you getting to learn a little more about me! to learn more about myself and my coding experience so far, feel free to visit my <a href="https://launchpass.launchacademy.com/users/PeterStevens/launcher_profile"> Launcher Profile</a>!</h5>
           <hr className="center"/>
         </div>
         <div className="row">
-          <div className="col-4"><h1 className="yellow-box center">Work History</h1></div>
-          <div className="col-4"><h1 className="center green-box">Education</h1></div>
-          <div className="col-4 "><h1 className="center orange-box">Projects</h1></div>
+          <div className="col-4"><Link to='/education' style={{ textDecoration: 'none', color: 'white' }}><h1 className="green-box mid">Education</h1></Link></div>
+          <div className="col-4"><Link to='/jobs' style={{ textDecoration: 'none', color: 'white' }}><h1 className="yellow-box mid">Work History</h1></Link></div>
+          <div className="col-4"><Link to='/projects' style={{ textDecoration: 'none', color: 'white' }}><h1 className="orange-box mid">Projects</h1></Link></div>
         </div>
+
       </div>
     </div>
+
   )
 }
 
