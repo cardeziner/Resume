@@ -1,7 +1,6 @@
 import React from 'react'
 import ProfileContainer from './ProfileContainer'
 import EducationComponent from './EducationComponent'
-import SampleBox from './SampleBox'
 import selfphoto from '../../../assets/images/profilepic.png'
 import github from '../../../assets/images/github.png'
 import linkedin from '../../../assets/images/linkedin.png'
