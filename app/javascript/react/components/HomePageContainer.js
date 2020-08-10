@@ -44,9 +44,9 @@ const HomePageContainer = (props) =>{
           <hr className="center"/>
         </div>
         <div className="row">
-          <div className="col-4"><Link to='/education' style={{ textDecoration: 'none', color: 'white' }}><h1 className="green-box mid">Education</h1></Link></div>
-          <div className="col-4"><Link to='/jobs' style={{ textDecoration: 'none', color: 'white' }}><h1 className="yellow-box mid">Work History</h1></Link></div>
-          <div className="col-4"><Link to='/projects' style={{ textDecoration: 'none', color: 'white' }}><h1 className="orange-box mid">Projects</h1></Link></div>
+          <div className="col-4"><Link to='/education' style={{ textDecoration: 'none', color: 'white' }}><h2 className="yellow-box mid bold">Education</h2></Link></div>
+          <div className="col-4"><Link to='/jobs' style={{ textDecoration: 'none', color: 'white' }}><h3 className="orange-box mid bold">Work History</h3></Link></div>
+          <div className="col-4"><Link to='/projects' style={{ textDecoration: 'none', color: 'white' }}><h2 className="green-box mid bold">Projects</h2></Link></div>
         </div>
 
       </div>
