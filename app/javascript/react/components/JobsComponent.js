@@ -8,7 +8,7 @@ const JobsComponent = (props) =>{
         <div className="col-3">
           <div className="borders bold">
           <h1 className="bold orange">Gourley Co</h1>
-          <p> independent consultant</p>
+          <p>independent consultant</p>
 
           <h4 className="soft orange-text">Waltham, MA</h4>
           <h5 className="soft orange-text">04/2019 - 11/2020</h5>
