@@ -14,7 +14,7 @@ const JobsComponent = (props) =>{
           <h5 className="soft orange-text">04/2019 - 11/2020</h5>
           </div>
         </div>
-        <div className="col-9 borders outline bold gap">
+        <div className="col-9 borders outline bold gap opac">
           <ul className="left margin-top">
             <p className="soft">Worked as an independent consultant offering website management services for Gourley Co, an HVAC product distribution company.</p>
             <p className="soft">Added new content and adjusted old content to update companies website(s).</p>
@@ -34,7 +34,7 @@ const JobsComponent = (props) =>{
           <h5 className="soft orange-text">06/2018 - 03/2019</h5>
           </div>
         </div>
-        <div className="col-9 borders outline bold gap">
+        <div className="col-9 borders outline bold gap opac">
           <ul className="left margin-top">
             <p className="soft">Lead Leasing Consultant for a lease-up community in Needham, MA.</p>
             <p className="soft">Reached 75% occupancy within the first 6 months of opening.</p>
@@ -55,7 +55,7 @@ const JobsComponent = (props) =>{
           <h5 className="soft orange-text">08/2017-06/2019</h5>
           </div>
         </div>
-        <div className="col-9 borders outline bold gap">
+        <div className="col-9 borders outline bold gap opac">
           <ul className="left margin-top">
             <p className="soft">-Managed, generated, and acquired leases for a variety of demographics at a recently renovated property in Denver, CO.</p>
             <p className="soft">Leased 21 apartments in December 2017 during leasing competition.</p>
