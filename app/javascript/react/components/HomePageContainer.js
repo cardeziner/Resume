@@ -14,7 +14,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const HomePageContainer = (props) =>{
   return(
-    <div className="row spacing">
+    <div className="row spacing bg-main">
       <div className="col-4">
         <div className="top border">
           <h1 className="bold">personal details</h1>

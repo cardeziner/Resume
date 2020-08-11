@@ -55,8 +55,34 @@ h1 {
   padding: 10%;
 }
 
+.bg-main{
+  background-image:url("main-bg.jpg");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+}
+
+.bg{
+  background-image:url("work-background.jpg");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+}
+
 .green-box:hover{
   background-color: #B4DF37;
+}
+
+.blue-title{
+  background-color: #FF8A00;
+  box-shadow: 0 8px 6px -6px gray;
+  margin: 2rem;
+}
+
+.hover:hover{
+  transform: scale(1.3);
 }
 
 .yellow-box{
@@ -280,8 +306,7 @@ col-3 {
 }
 
 img:hover {
-  border: 2px solid #FABE28;
-  border-radius: 5px;
+  transform: scale(1.05);
 }
 
 .left {
