@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Resume</title>
+  <title>Peter's Resume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= csrf_meta_tags %>
@@ -13,9 +13,10 @@
 
     <div class="top-bar-section">
       <div class="white row">
-        <p class="col-3 title"><%= link_to 'Back to Profile', root_path %></p>
-        <p class="col-3 title"><%= link_to 'Job History', root_path %></p>
-        <p class="col-3 title"><%= link_to 'Education', root_path %></p>
+        <p class="col-3 hover"><%= link_to image_tag("home.png"), root_path %></p>
+        <p class="col-3 hover"><%= link_to image_tag("work.png"), jobs_path %></p>
+        <p class="col-3 hover"><%= link_to image_tag("school.png"), education_path %></p>
+        <p class="col-3 hover"><%= link_to image_tag("projects.png"), projects_path %></p>
       </div>
     </div>
   </nav>
