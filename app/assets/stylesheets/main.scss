@@ -54,9 +54,7 @@ h1 {
   font-family: 'Alegreya SC', serif;
   color: white;
   border: 10px solid white;
-  display: inline-block;
   height: 125px;
-  padding: 10%;
 }
 
 .bg-main{
@@ -73,6 +71,7 @@ h1 {
   min-width: 100%;
   min-height: 100%;
   position: absolute;
+  vertical-align: middle;
 }
 
 .green-box:hover{
@@ -95,13 +94,19 @@ h1 {
   font-family: 'Alegreya SC', serif;
   color: white;
   border: 10px solid white;
-  display: inline-block;
   height: 125px;
-  padding: 10%;
 }
 
 .yellow-box:hover {
   background-color: #F6D86B;
+}
+
+.circles{
+  spacing: 5%;
+  padding: 1%;
+  border-radius: 360px;
+  width: 300px;
+  border: 5px solid #FABE28;
 }
 
 .right{
@@ -115,9 +120,14 @@ h1 {
   font-family: 'Alegreya SC', serif;
   color: white;
   border: 10px solid white;
-  display: inline-block;
   height: 125px;
-  padding: 10%;
+}
+
+.yellow-title{
+  color: white;
+  background-color: #FABE28;
+  box-shadow: 0 8px 6px -6px gray;
+  margin: 2rem;
 }
 
 .orange{
@@ -309,9 +319,9 @@ col-3 {
   padding-right: 4%;
 }
 
-img:hover {
-  transform: scale(1.05);
-}
+// img:hover {
+//   transform: scale(1.05);
+// }
 
 .left {
   text-align: left;
@@ -325,4 +335,5 @@ img:hover {
 
 .mid{
 text-align: center;
+vertical-align: middle;
 }
