@@ -164,6 +164,7 @@ h1 {
 .logo {
   height: 50px;
   width: 50px;
+  border-radius: 360px;
 }
 
 .list{
@@ -265,6 +266,10 @@ hr {
 .text-1 {
   font-family: 'Merriweather', serif;
   color: #333333;
+}
+
+.logo:hover{
+  transform: scale(1.075)
 }
 
 .title-center {
