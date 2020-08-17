@@ -97,11 +97,25 @@ h1 {
   height: 125px;
 }
 
+.small{
+  font-size: xx-small;
+}
+
+.left-pad{
+  padding-left: 5%;
+}
+
 .no-bull{
-  list-style-type: armenian;
+  list-style-type: none;
+  color: #FABE28;
 }
 .yellow-box:hover {
   background-color: #F6D86B;
+}
+
+.my-logo{
+  height: 45px;
+  padding-right: 10px;
 }
 
 .circles{

@@ -7,6 +7,8 @@ import linkedin from '../../../assets/images/linkedin.png'
 import facebook from '../../../assets/images/facebook.png'
 import launch from '../../../assets/images/launch.png'
 import aboutme from '../../../assets/images/aboutme.jpeg'
+import email from '../../../assets/images/email-logo.png'
+import phone from '../../../assets/images/phone-logo.png'
 import { Link } from 'react-router-dom'
 
 import { Container, Row, Col } from 'react-bootstrap'
@@ -28,6 +30,11 @@ const HomePageContainer = (props) =>{
                 <div className="col-12"><h4 className="bold center">learning institution</h4></div>
                 <div className="col-12"><p className="soft center">Launch Academy, Boston</p></div><hr className="center"/>
               </div>
+              <div className="left left-pad">
+                <p className="soft"><img src={phone} className="my-logo"/>781-690-1366</p>
+                <p className="soft"><img src={email} className="my-logo small"/>peter.mcbride.stevens@gmail.com</p>
+              </div>
+              <hr className="center"/>
               <div className="row bot-pad">
                 <div className="col-3 center"><a href="http://www.github.com/cardeziner"><img className="logo" src={github}/></a></div>
                 <div className="col-3 center"><a href="http://www.linkedin.com/in/petermcbridestevens"><img className="logo" src={linkedin}/></a></div>

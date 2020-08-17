@@ -34,6 +34,19 @@ const EducationComponent = (props) =>{
             <h4 className="bold center">what i learned </h4>
             <p className="inline-block soft">I have always been very artistic. I grew up always drawing and coming up with my own car designs, and when I started thinking about college, I thought it would be great to dig deeper into how the industry works and what it takes. And thats when I decided to study Industrial Design at MSU Denver.</p>
             <p className="inline-block soft">During my time at MSU, I not only practiced and improved on my drawing and sketching skills, but I also learned about fabrication of different materials. Understanding the processes for fabrication with wood, metal, and plastic gave me insight on how to make my designs stylish and functional, but also more efficient for the production process.</p>
+            <hr className="center"/>
+            <h4 className="bold center">Specialties</h4>
+              <div className="inline-block row no-bull">
+                <div className="col-6">
+                  <li>Digital Rendering</li>
+                  <li>Adobe</li>
+                  <li>Plastic Fabrication</li>
+                  <li>Metal Fabrication</li>
+                  <li>Wood Fabrication</li>
+                  <li>AutoCAD</li>
+                  <li>SolidWorks</li>
+                </div>
+              </div>
           </div>
         </div>
         <div className="col-6">
@@ -65,12 +78,30 @@ const EducationComponent = (props) =>{
             <p className="inline-block soft">As an intense full stack development boot camp program, I not only learned new languages,  HTML and CSS, but I also learned about how to synchronously write code between multiple components. During my time at Launch I have learned how to write testing with capybara and spec, create forms, API integration, React on Rails, Ruby on Rails, and more. Since my graduation, I have been continuously coding to not only practice my skills, but to get more comfortable with the knowledge I have gained. I look forward to finding a company where I can not only continue but also expand my skills and knowledge.</p>
               <hr className="center"/>
             <h4 className="bold center">Specialties</h4>
-            <p classNamer="inline-block no-bull">
-              <li>Ruby</li>
-              <li>JavaScript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </p>
+            <div className="row">
+              <div className="inline-block no-bull col-6">
+                <li>Ruby</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Capybara Testing</li>
+                <li>API Integration</li>
+                <li>Databases</li>
+                <li>JSON</li>
+                <li>ActiveRecord Models</li>
+              </div>
+              <div className="inline-block no-bull col-6">
+                <li>Routing</li>
+                <li>Ruby on Rails</li>
+                <li>React on Rails</li>
+                <li>CSS</li>
+                <li>Devise</li>
+                <li>PostgreSQL</li>
+                <li>OOP</li>
+                <li>RESTful Actions</li>
+                <li>Routing</li>
+              </div>
+            </div>
           </div>
         </div>
       </div>
