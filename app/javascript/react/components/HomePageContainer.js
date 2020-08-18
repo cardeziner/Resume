@@ -59,7 +59,6 @@ const HomePageContainer = (props) =>{
         </div>
       </div>
     </div>
-
   )
 }
 
