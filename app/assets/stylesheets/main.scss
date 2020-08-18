@@ -42,6 +42,8 @@ h1 {
   background: white;
   padding-top: 2%;
   padding-bottom: 2%;
+  height: auto;
+  overflow: auto;
 }
 
 .opac{
@@ -57,8 +59,86 @@ h1 {
   height: 125px;
 }
 
+.no-blur{
+  filter: blur(0);
+  z-index: 2;
+}
+
+.vert{
+  vertical-align: middle;
+}
+
+.work-button{
+  background-image:url("work-background.jpg");
+  background-position: right;
+  height: 30rem;
+  line-height: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  word-break:normal;
+  font-size: 3vw;
+}
+
+.bg-proj{
+  background-image: url("project-background.jpg");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-size:cover;
+}
+
+.school-button{
+  background-image:url("school-background.png");
+  background-position: center;
+  height: auto;
+  height: 30rem;
+  line-height: 15rem;
+  font-size: 3vw;
+}
+
+.school-button:hover{
+  filter: brightness(125%);
+  transform: scale(1.05%);
+  box-shadow: 0px 11px 52px 0px rgba(0,0,0,0.75);
+}
+
+.work-button:hover{
+  color: white;
+  filter: brightness(110%);
+  transform: scale(1.05%);
+  box-shadow: 0px 11px 52px 0px rgba(0,0,0,0.75);
+}
+
+.project-button:hover{
+  filter: brightness(115%);
+  transform: scale(1.05%);
+  box-shadow: 0px 11px 52px 0px rgba(0,0,0,0.75);
+}
+
+.project-button{
+  background-image:url("project-background.jpg");
+  background-position:right;
+  height: auto;
+  height: 30rem;
+  line-height: 15rem;
+  font-size: 3vw;
+}
+
+.bg-school{
+  background-image:url("school-background.png");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
 .bg-main{
-  background-image:url("main-bg.jpg");
+  background-image: url("main-bg.jpg");
   background-position: center;
   min-width: 100%;
   min-height: 100%;
@@ -72,6 +152,7 @@ h1 {
   min-height: 100%;
   position: absolute;
   vertical-align: middle;
+  background-size:cover;
 }
 
 .green-box:hover{
@@ -121,9 +202,13 @@ h1 {
 .circles{
   spacing: 5%;
   padding: 1%;
-  border-radius: 25px;
+  border-radius: 65px;
   width: 300px;
   border: 5px solid #FABE28;
+}
+
+.circles:hover{
+  transform:scale(1.075);
 }
 
 .right{
@@ -143,6 +228,13 @@ h1 {
 .yellow-title{
   color: white;
   background-color: #FABE28;
+  box-shadow: 0 8px 6px -6px gray;
+  margin: 2rem;
+}
+
+.green-title{
+  color: white;
+  background-color: #88C100;
   box-shadow: 0 8px 6px -6px gray;
   margin: 2rem;
 }
@@ -176,6 +268,7 @@ h1 {
   box-shadow: 0 8px 6px -6px gray;
   padding-bottom: 5px;
   background-color: white;
+  height:auto;
 }
 
 .logo {
@@ -217,7 +310,7 @@ h1 {
 }
 
 .gap{
-  column-gap: normal;
+  column-gap: 2rem;
 }
 
 .padding-top {

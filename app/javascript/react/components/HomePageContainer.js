@@ -43,7 +43,7 @@ const HomePageContainer = (props) =>{
               </div>
             </div>
           </div>
-        <div className="col-8 borders">
+        <div className="col-8 borders vert">
           <div>
             <h1 className="bold padding-top aboutme">about me</h1><hr className="center"/>
             <h5 className="inline-block">Hello! My name is Peter Stevens and I am originally from Boston, MA, but have recently moved back to Denver. In my spare time, I like to go on hikes, I love camping, and I love just spending time outdoors, so its no suprise how I have recently just moved back to Denver!  I have recently graduated from a full-stack development boot camp program at Launch Academy, and I am very excited to begin a new career in software development.</h5>
@@ -52,9 +52,9 @@ const HomePageContainer = (props) =>{
             <hr className="center"/>
           </div>
           <div className="row">
-            <div className="col-4"><Link to='/education' style={{ textDecoration: 'none', color: 'white' }}><h2 className="yellow-box mid bold">Education</h2></Link></div>
-            <div className="col-4"><Link to='/jobs' style={{ textDecoration: 'none', color: 'white' }}><h3 className="orange-box mid bold">Work History</h3></Link></div>
-            <div className="col-4"><Link to='/projects' style={{ textDecoration: 'none', color: 'white' }}><h2 className="green-box mid bold">Projects</h2></Link></div>
+            <div className="col-4"><Link to='/education' style={{ textDecoration: 'none', color: 'white' }}><h1 className="borders school-button bold">Education</h1></Link></div>
+            <div className="col-4"><Link to='/jobs' style={{ textDecoration: 'none', color: 'white' }}><h1 className="borders work-button bold">Job History</h1></Link></div>
+            <div className="col-4"><Link to='/projects' style={{ textDecoration: 'none', color: 'white' }}><h1 className="borders project-button bold">Projects</h1></Link></div>
           </div>
         </div>
       </div>
