@@ -16,7 +16,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const HomePageContainer = (props) =>{
   return(
-    <div className="bg-main">
+    <div className="home-bg">
+      <h1 className="red-title white col-4 mx-auto center bold">MY RESUME</h1>
       <div className="row spacing">
         <div className="col-4">
           <div className="top border">
