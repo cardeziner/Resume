@@ -17,7 +17,7 @@ const JobsComponent = (props) =>{
         <div className="col-9 borders outline bold gap opac">
           <ul className="left margin-top">
             <p className="soft">Worked as an independent consultant offering website management services for Gourley Co, an HVAC product distribution company.</p>
-            <p className="soft">Added new content and adjusted old content to update companies website(s).</p>
+            <p className="soft">Added new content and adjusted old content to update company's website(s).</p>
             <p className="soft">Built, formatted, and created content for 2 other websites focused primarily on individual products sold by Gourley Co using 3rd party development services (web.com, godaddy.com).</p>
             <p className="soft">Managed online marketing through GoogleAds, Facebook Ads, and SEO through Google SEO services, GoDaddy, and Facebook for 2 websites.</p>
             <p className="soft">Ran general maintenance on both websites to make sure all content was accurate and up-to-date.</p>

@@ -26,7 +26,7 @@ const HomePageContainer = (props) =>{
           <img className="top" src={selfphoto}/>
             <div className="border bottom">
               <div className="row">
-                <div className="col-6 center"><h4 className="bold">Level</h4><p className="soft center">Jr. Developer</p></div>
+                <div className="col-6 center"><h4 className="bold">role desired</h4><p className="soft center">Jr. Developer</p></div>
                 <div className="col-6 center"><h4 className="bold">location</h4><p className="soft center">Denver</p></div>
                 <div className="col-12"><h4 className="bold center">learning institution</h4></div>
                 <div className="col-12"><p className="soft center">Launch Academy, Boston</p></div><hr className="center"/>

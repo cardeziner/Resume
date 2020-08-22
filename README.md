@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My resume app was built to offer some insight into the progress I have made as a developer since graduation, as well as an easy and seamless way to review my resume. I have put extended effort into improving my CSS skills, and gotten more practice with some of my back end development abilities. Enjoy!
 
-Things you may want to cover:
+Built using the following technologies:
 
-* Ruby version
+Ruby on Rails
+Javascript
+React.js
+CSS
+HTML
+ActiveRecord
+ReactPlayer
 
-* System dependencies
+* Ruby version : 2.6.5
 
-* Configuration
+* Authored by: Peter Stevens
 
-* Database creation
+* Built With:
+  -React.js
+  -Ruby on Rails
+  -PostgreSQL 12
 
-* Database initialization
+* Getting Started:
+The setup steps expect the following tools/versions:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ruby 2.6.5
+Rails 5.2.4.2
+PostgreSQL 12
+Checkout the repository
+git clone https://github.com/cardeziner/FriendTrip.git
+Create and setup the database
+bundle exec rake db:setup
