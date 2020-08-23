@@ -18,7 +18,7 @@ const ProjectsComponent = props =>{
             <hr className ="center"/>
             <h3 className="bold gray">silver spoon reviews</h3>
             <div className="inline-block soft">
-              <p>This project is a two-week build, designed to give users a website to review high-end restaurants in Boston, MA. Users can create an account to be able to write reviews, as well as add new restaurants to the list. Non-users can view all restaurants and reviews but do not have access to edit information. It was collaborative project that was built by myself and 3 of my colleagues at Launch Academy. </p>
+              <p>This project is a two-week build, designed to give users a website to review high-end restaurants in Boston, MA. Users can create an account to be able to write reviews, as well as add new restaurants to the list. Non-users can view all restaurants and reviews but do not have access to edit information. This was a collaborative project that was built by myself and 3 of my colleagues at Launch Academy. </p>
             </div>
             <hr className ="center"/>
             <h3 className="bold gray ">technologies used</h3>
@@ -120,7 +120,7 @@ const ProjectsComponent = props =>{
             <hr className ="center"/>
             <div>
               <h3 className="bold gray">github & code</h3>
-              <a href="https://github.com/rmlance/silver-spoon-reviews"><img className="gr-circ" src={git}/></a>
+              <a href="https://github.com/cardeziner/Resume"><img className="gr-circ" src={git}/></a>
               <h1 className="bot-pad"></h1>
             </div>
           </div>

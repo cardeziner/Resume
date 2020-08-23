@@ -47,9 +47,10 @@ const HomePageContainer = (props) =>{
         <div className="col-8 borders vert">
           <div>
             <h1 className="bold padding-top aboutme">about me</h1><hr className="center"/>
-            <h5 className="inline-block">Hello! My name is Peter Stevens and I am originally from Boston, MA, but have recently moved back to Denver. In my spare time, I like to go on hikes, I love camping, and I love just spending time outdoors, so its no suprise how I have recently just moved back to Denver!  I have recently graduated from a full-stack development boot camp program at Launch Academy, and I am very excited to begin a new career in software development.</h5>
+            <h5 className="inline-block">Hello! My name is Peter Stevens and I am originally from Boston, MA and I have recently moved back to Denver. In my spare time, I like to golf, hike, go camping, and overall I love just spending time outdoors, so its no suprise why I moved back to Denver!  I have recently graduated from a full-stack development boot camp program at Launch Academy, and I am very excited to begin a new career in software development.</h5>
             <h5 className="inline-block">As I am looking for new opportunities and potential teams to join to grow my knowledge and expand my skills, I have been also trying to find a role that also excites me. I am currently looking for an opportunity where I am able to expand my skills with similar technologies I have already become accustomed to using and looking for opportunities to learn new technologies as well. I enjoy working with teams as well as individually, and love a good challenge.</h5>
-            <h5 className="inline-block">Recently, I have been working on improving my skills throughout my time since graduation by learning new technologies and coding strategies which include working with Express, improving my front-end capabilities, and I have also been attending a number of tech events to stay in the loop with whats going on in the industry, and to learn about new ways to make my code more efficient and RESTful. I would like to thank you for taking the time to look at my website, and I look forward to you getting to learn a little more about me! to learn more about myself and my coding experience so far, feel free to visit my <a href="https://launchpass.launchacademy.com/users/PeterStevens/launcher_profile"> Launcher Profile</a>!</h5>
+            <h5 className="inline-block">Now that I am seeking a role where I can begin my career in software development, I have been doing several things to prepare for the opportunity. Right after graduation, I continued working on my FriendTrip project (which you can find more information on the “Projects” page). I then temporarily put that aside to build and provide you with this resume project. I wanted to continue to exercise the knowledge I’ve gained, and also  further develop my front-end skills. I have also continued to further my knowledge by working with new APIs, attending remote tech events, and trying to learn new technologies like Express. Overall, I have been trying to keep up with my coding, and learning new ways to make my code more efficient and RESTful. </h5>
+            <h5 className="inline-block">I would like to thank you for taking the time to look at my website, and I look forward to you getting to learn a little more about me! To learn more about myself and my coding experience so far, feel free to visit my <a href="https://launchpass.launchacademy.com/users/PeterStevens/launcher_profile"> Launcher Profile</a>!</h5>
             <hr className="center"/>
           </div>
           <div className="row">
@@ -64,6 +65,3 @@ const HomePageContainer = (props) =>{
 }
 
 export default HomePageContainer
-// <h2 className="bold center">Peter Stevens</h2>
-// <h2 className="bold left center">age</h2><h4 className="soft right">30<br></br>hello</h4>
-// <h2 className="left left">hello</h2>
