@@ -96,7 +96,7 @@ const ProjectsComponent = props =>{
         </div>
         <div className="col-4 gap">
           <div className="borders">
-            <a href="http://ps-resume.herokuapp.com" target="_blank"><img className="pad-bot" src={pp}/></a>
+            <a href="http://peters-resume.herokuapp.com" target="_blank"><img className="pad-bot" src={pp}/></a>
             <hr className="center"/>
             <h3 className="gray bold">my resume</h3>
             <div className="inline-block soft">
