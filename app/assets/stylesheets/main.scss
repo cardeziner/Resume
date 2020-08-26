@@ -74,7 +74,7 @@ h1 {
   margin: 2rem;
 }
 .work-button{
-  background: image-url("work-background.jpg");
+  background: image-path("work-background.jpg");
   background-position: right;
   height: 30rem;
   line-height: 15rem;
@@ -87,7 +87,7 @@ h1 {
 }
 
 .home-bg{
-  background: image-url("home-bg.jpg");
+  background: image-path("home-bg.jpg");
   background-position: center;
   min-width: 100%;
   min-height: 100%;
@@ -97,7 +97,7 @@ h1 {
 }
 
 .bg-proj{
-  background: image-url("project-background.jpg");
+  background: image-path("project-background.jpg");
   background-position: center;
   min-width: 100%;
   min-height: 100%;
@@ -107,7 +107,7 @@ h1 {
 }
 
 .school-button{
-  background: image-url("school-background.png");
+  background: image-path("school-background.png");
   background-position: center;
   height: auto;
   height: 30rem;
