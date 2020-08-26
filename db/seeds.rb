@@ -5,5 +5,3 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-Jobs.create(title:"concierge", location: "denver", start_date: "11/11/2011", end_date: "11/12/2011", duties:[])
