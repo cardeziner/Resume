@@ -1,5 +1,4 @@
 import React from 'react'
-import ProfileContainer from './ProfileContainer'
 import EducationComponent from './EducationComponent'
 import selfphoto from '../../../assets/images/profilepic.png'
 import github from '../../../assets/images/github.png'
