@@ -18,7 +18,7 @@ h1 {
 
 .title {
   font-family: 'Galada', cursive;
-  color: #CCCCCC;
+  color: #e0505f;
 }
 
 .bold {
@@ -52,7 +52,7 @@ h1 {
 
 .green-box{
   background-color: #88C100;
-  border-radius: 6%;
+  border-radius: 6px;
   font-family: 'Alegreya SC', serif;
   color: white;
   border: 10px solid white;
@@ -68,6 +68,11 @@ h1 {
   vertical-align: middle;
 }
 
+.red-title{
+  background-color: #e0505f;
+  box-shadow: 0 8px 6px -6px gray;
+  margin: 2rem;
+}
 .work-button{
   background-image:url("work-background.jpg");
   background-position: right;
@@ -79,6 +84,16 @@ h1 {
   text-align: center;
   word-break:normal;
   font-size: 3vw;
+}
+
+.home-bg{
+  background-image: url("home-bg.jpg");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-size:cover;
 }
 
 .bg-proj{
@@ -207,6 +222,60 @@ h1 {
   border: 5px solid #FABE28;
 }
 
+.gray{
+  color: #BCBCBC;
+}
+
+.circles-gr{
+  width: 90%;
+}
+
+.gr-circ{
+  border-radius: 360px;
+  border: 5px solid #88C100;
+}
+
+.gr-circ:hover{
+  transform: scale(1.1)
+}
+
+.circles-gr1{
+  width: 80%;
+}
+
+.pad-bot{
+  padding-top: 1rem;
+  width:76%;
+  padding-bottom: .5rem;
+}
+
+.pad-bot:hover{
+  transform: scale(1.1)
+}
+
+.circles.gr1:hover{
+  transform: scale(1);
+}
+
+.ft{
+  padding-top: 1rem;
+  width:76%;
+  padding-bottom: .1rem;
+}
+
+.ft:hover{
+  transform: scale(1.1);
+}
+
+.circles-gr:hover{
+  transform: scale(1.1);
+
+}
+
+.green{
+  color: #88C100;
+}
+
 .circles:hover{
   transform:scale(1.075);
 }
@@ -225,6 +294,10 @@ h1 {
   height: 125px;
 }
 
+.photo{
+
+}
+
 .yellow-title{
   color: white;
   background-color: #FABE28;
@@ -234,6 +307,7 @@ h1 {
 
 .green-title{
   color: white;
+  border-radius: 3px;
   background-color: #88C100;
   box-shadow: 0 8px 6px -6px gray;
   margin: 2rem;
@@ -417,6 +491,32 @@ hr {
   display: flex;
 }
 
+.wrapper{
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.player{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.extra-small{
+  font-size: smaller;
+}
+
+.margin{
+  margin: auto;
+  white-space: normal;
+}
+
+.react-video > div{
+  position: absolute;
+}
 
 .small-title {
   font-family: 'Galada', cursive;
@@ -433,10 +533,6 @@ col-3 {
   padding-left: 4%;
   padding-right: 4%;
 }
-
-// img:hover {
-//   transform: scale(1.05);
-// }
 
 .left {
   text-align: left;
