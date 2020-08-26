@@ -30,9 +30,9 @@ const HomePageContainer = (props) =>{
                 <div className="col-12"><h4 className="bold center">learning institution</h4></div>
                 <div className="col-12"><p className="soft center">Launch Academy, Boston</p></div><hr className="center"/>
               </div>
-              <div className="left left-pad">
-                <p className="soft"><img src={phone} className="my-logo"/>781-690-1366</p>
-                <p className="soft"><img src={email} className="my-logo small"/>peter.mcbride.stevens@gmail.com</p>
+              <div className="left">
+                <p className="soft center"><img src={phone} className="my-logo"/><br/>781-690-1366</p>
+                <p className="soft center"><img src={email} className="my-logo extra-small"/><br/>peter.mcbride.stevens@gmail.com</p>
               </div>
               <hr className="center"/>
               <div className="row bot-pad">

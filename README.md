@@ -30,4 +30,5 @@ PostgreSQL 12
 Checkout the repository
 git clone https://github.com/cardeziner/FriendTrip.git
 Create and setup the database
-bundle exec rake db:setup
+bundle exec rake db:setup"
+Run the test suite bundle exec rspec Start the Rails server and webpack-dev-server bundle exec rails s yarn run start The application can be accessed via http://localhost:3000

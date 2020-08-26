@@ -75,15 +75,15 @@ const EducationComponent = (props) =>{
                 </div>
                 <div className="row">
                   <div className="col-12">
-                    <h4 className="bold">Certification</h4>
+                    <h4 className="bold">certification</h4>
                     <p className="soft">Full Stack Developer</p>
                   </div>
                 </div>
               </div>
               <hr className="center"/>
               <h4 className="bold center">what i learned </h4>
-              <p className="inline-block soft">Before my time at Launch Academy, I was brand new to coding,  have always been very technically minded, great with computers, and was always interested on the mechanic of how computers work, so when my sister told me about Launch, I decided this was a great opportunity to not only learn more about computers and coding, but also an exciting career to get involved in. </p>
-              <p className="inline-block soft">As an intense full stack development boot camp program, I not only learned new languages,  HTML and CSS, but I also learned about how to synchronously write code between multiple components. During my time at Launch I have learned how to write testing with capybara and spec, create forms, API integration, React on Rails, Ruby on Rails, and more. Since my graduation, I have been continuously coding to not only practice my skills, but to get more comfortable with the knowledge I have gained. I look forward to finding a company where I can not only continue but also expand my skills and knowledge.</p>
+              <p className="inline-block soft">Before my time at Launch Academy, I was brand new to coding. I  have always been very technically minded, great with computers, and was always interested on the mechanic of how computers work, so when my sister told me about Launch, I decided this was a great opportunity to not only learn more about computers and coding, but also an exciting career to get involved in. </p>
+              <p className="inline-block soft">As an intense full stack development boot camp program, I not only learned new languages,  HTML and CSS, but I also learned about how to synchronously write code between multiple components. During my time at Launch I have learned how to write testing with Capybara and Rspec, create forms, API integration, React on Rails, Ruby on Rails, and more. Since my graduation, I have been continuously coding to not only practice my skills, but to get more comfortable with the knowledge I have gained. I look forward to finding a company where I can not only continue but also expand my skills and knowledge.</p>
                 <hr className="center"/>
               <h4 className="bold center">Specialties</h4>
               <div className="row">

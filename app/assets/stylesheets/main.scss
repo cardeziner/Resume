@@ -504,6 +504,16 @@ hr {
   height: 100%;
 }
 
+
+.extra-small{
+  font-size: smaller;
+}
+
+.margin{
+  margin: auto;
+  white-space: normal;
+}
+
 .react-video > div{
   position: absolute;
 }
@@ -523,10 +533,6 @@ col-3 {
   padding-left: 4%;
   padding-right: 4%;
 }
-
-// img:hover {
-//   transform: scale(1.05);
-// }
 
 .left {
   text-align: left;
