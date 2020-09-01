@@ -33,7 +33,7 @@ const EducationComponent = (props) =>{
               </div>
               <hr className="center"/>
               <h4 className="bold center">what i learned </h4>
-              <p className="inline-block soft">I have always been very artistic. I grew up always drawing and coming up with my own car designs, and when I started thinking about college, I thought it would be great to dig deeper into how the industry works and what it takes. And thats when I decided to study Industrial Design at MSU Denver.</p>
+              <p className="inline-block soft">Since I was very young, art was always a personal hobby of mine. I grew up always drawing and creating my own car designs, and when I started thinking about college, I thought it would be great to dig deeper into how the automoitive design industry works and what it takes. And thats when I decided to study Industrial Design at MSU Denver.</p>
               <p className="inline-block soft">During my time at MSU, I not only practiced and improved on my drawing and sketching skills, but I also learned about fabrication of different materials. Understanding the processes for fabrication with wood, metal, and plastic gave me insight on how to make my designs stylish and functional, but also more efficient for the production process.</p>
               <hr className="center"/>
               <h4 className="bold center">Specialties</h4>
@@ -82,7 +82,7 @@ const EducationComponent = (props) =>{
               </div>
               <hr className="center"/>
               <h4 className="bold center">what i learned </h4>
-              <p className="inline-block soft">Before my time at Launch Academy, I was brand new to coding. I  have always been very technically minded, great with computers, and was always interested on the mechanic of how computers work, so when my sister told me about Launch, I decided this was a great opportunity to not only learn more about computers and coding, but also an exciting career to get involved in. </p>
+              <p className="inline-block soft">Before my time at Launch Academy, I was brand new to coding. I  have always been very technically minded, great with computers, and was always interested in the mechanics of how computers work. Even though I was the youngest, I was usually the one teaching members of my family how our home computer worked. So, when my sister told me about Launch, I decided this was a great opportunity to not only learn more about computers and coding, but also an exciting career that I could enjoy, and be successful at. </p>
               <p className="inline-block soft">As an intense full stack development boot camp program, I not only learned new languages,  HTML and CSS, but I also learned about how to synchronously write code between multiple components. During my time at Launch I have learned how to write testing with Capybara and Rspec, create forms, API integration, React on Rails, Ruby on Rails, and more. Since my graduation, I have been continuously coding to not only practice my skills, but to get more comfortable with the knowledge I have gained. I look forward to finding a company where I can not only continue but also expand my skills and knowledge.</p>
                 <hr className="center"/>
               <h4 className="bold center">Specialties</h4>
