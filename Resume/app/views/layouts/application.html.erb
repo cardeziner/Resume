@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Peter's Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= csrf_meta_tags %>
+  
+</head>
+<body class="background">
+
+  <nav class="top-bar bottom">
+    <h1><a class="title">Peter McBride Stevens</a></h1>
+
+    <div class="top-bar-section">
+      <div class="white row">
+        <p class="col-3 hover" title="Home"><%= link_to image_tag("home.png"), root_path %></p>
+        <p class="col-3 hover" title="Job History"><%= link_to image_tag("work.png"), jobs_path %></p>
+        <p class="col-3 hover" title="Education"><%= link_to image_tag("school.png"), education_path %></p>
+        <p class="col-3 hover" title="Projects"><%= link_to image_tag("projects.png"), projects_path %></p>
+      </div>
+    </div>
+  </nav>
+
+  <%- flash.each do |key, value| -%>
+    <div class="flash flash-<%= key %>">
+      <%= value %>
+    </div>
+  <%- end -%>
+
+  <%= yield %>
+
+  <%= javascript_include_tag 'application' %>
+
+  <%- if Rails.env.development? || Rails.env.test? -%>
+    <%= javascript_tag do %>
+      window.railsEnv = '<%= Rails.env %>'
+    <%- end -%>
+  <%- end -%>
+  <%= javascript_pack_tag 'application' %>
+
+  <%= yield :extra_footer %>
+</body>
+</html>

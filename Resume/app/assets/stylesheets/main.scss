@@ -1,0 +1,550 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.background {
+  background-color: #CCCCCC;
+}
+
+h1 {
+  vertical-align: middle;
+}
+
+.title {
+  font-family: 'Galada', cursive;
+  color: #e0505f;
+}
+
+.bold {
+  font-family: 'Alegreya SC', serif;
+}
+
+.soft {
+  font-family: 'Roboto', sans-serif;
+}
+
+.light{
+  font-family: 'Roboto', sans-serif;
+}
+
+.white{
+  color: white;
+}
+
+.border{
+  color: black;
+  background: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: auto;
+  overflow: auto;
+}
+
+.opac{
+  opacity: .90
+}
+
+.green-box{
+  background-color: #88C100;
+  border-radius: 6px;
+  font-family: 'Alegreya SC', serif;
+  color: white;
+  border: 10px solid white;
+  height: 125px;
+}
+
+.no-blur{
+  filter: blur(0);
+  z-index: 2;
+}
+
+.vert{
+  vertical-align: middle;
+}
+
+.red-title{
+  background-color: #e0505f;
+  box-shadow: 0 8px 6px -6px gray;
+  margin: 2rem;
+}
+.work-button{
+  background: image-url("work-background.jpg");
+  background-position: right;
+  height: 30rem;
+  line-height: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  word-break:normal;
+  font-size: 3vw;
+}
+
+.home-bg{
+  background: image-url("home-bg.jpg");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-size:cover;
+}
+
+.bg-proj{
+  background: image-url("project-background.jpg");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-size:cover;
+}
+
+.school-button{
+  background: image-url("school-background.png");
+  background-position: center;
+  height: auto;
+  height: 30rem;
+  line-height: 15rem;
+  font-size: 3vw;
+}
+
+.school-button:hover{
+  filter: brightness(125%);
+  transform: scale(1.05%);
+  box-shadow: 0px 11px 52px 0px rgba(0,0,0,0.75);
+}
+
+.work-button:hover{
+  color: white;
+  filter: brightness(110%);
+  transform: scale(1.05%);
+  box-shadow: 0px 11px 52px 0px rgba(0,0,0,0.75);
+}
+
+.project-button:hover{
+  filter: brightness(115%);
+  transform: scale(1.05%);
+  box-shadow: 0px 11px 52px 0px rgba(0,0,0,0.75);
+}
+
+.project-button{
+  background-image: url("project-background.jpg");
+  background-position:right;
+  height: auto;
+  height: 30rem;
+  line-height: 15rem;
+  font-size: 3vw;
+}
+
+.bg-school{
+  background-image: url("school-background.png");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.bg-main{
+  background-image: url("main-bg.jpg");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+}
+
+.bg{
+  background-image: url("work-background.jpg");
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  vertical-align: middle;
+  background-size:cover;
+}
+
+.green-box:hover{
+  background-color: #B4DF37;
+}
+
+.blue-title{
+  background-color: #FF8A00;
+  box-shadow: 0 8px 6px -6px gray;
+  margin: 2rem;
+}
+
+.hover:hover{
+  transform: scale(1.3);
+}
+
+.yellow-box{
+  background-color: #FABE28;
+  border-radius: 6%;
+  font-family: 'Alegreya SC', serif;
+  color: white;
+  border: 10px solid white;
+  height: 125px;
+}
+
+.small{
+  font-size: xx-small;
+}
+
+.left-pad{
+  padding-left: 5%;
+}
+
+.no-bull{
+  list-style-type: none;
+  color: #FABE28;
+}
+.yellow-box:hover {
+  background-color: #F6D86B;
+}
+
+.my-logo{
+  height: 45px;
+  padding-right: 10px;
+}
+
+.circles{
+  spacing: 5%;
+  padding: 1%;
+  border-radius: 65px;
+  width: 300px;
+  border: 5px solid #FABE28;
+}
+
+.gray{
+  color: #BCBCBC;
+}
+
+.circles-gr{
+  width: 90%;
+}
+
+.gr-circ{
+  border-radius: 360px;
+  border: 5px solid #88C100;
+}
+
+.gr-circ:hover{
+  transform: scale(1.1)
+}
+
+.circles-gr1{
+  width: 80%;
+}
+
+.pad-bot{
+  padding-top: 1rem;
+  width:76%;
+  padding-bottom: .5rem;
+}
+
+.pad-bot:hover{
+  transform: scale(1.1)
+}
+
+.circles.gr1:hover{
+  transform: scale(1);
+}
+
+.ft{
+  padding-top: 1rem;
+  width:76%;
+  padding-bottom: .1rem;
+}
+
+.ft:hover{
+  transform: scale(1.1);
+}
+
+.circles-gr:hover{
+  transform: scale(1.1);
+
+}
+
+.green{
+  color: #88C100;
+}
+
+.circles:hover{
+  transform:scale(1.075);
+}
+
+.right{
+  float: right;
+}
+
+.orange-box{
+  align-items: center;
+  background-color: #FF8A00;
+  border-radius: 6%;
+  font-family: 'Alegreya SC', serif;
+  color: white;
+  border: 10px solid white;
+  height: 125px;
+}
+
+.photo{
+
+}
+
+.yellow-title{
+  color: white;
+  background-color: #FABE28;
+  box-shadow: 0 8px 6px -6px gray;
+  margin: 2rem;
+}
+
+.green-title{
+  color: white;
+  border-radius: 3px;
+  background-color: #88C100;
+  box-shadow: 0 8px 6px -6px gray;
+  margin: 2rem;
+}
+
+.orange{
+  background-color: #FF8A00;
+  color: white;
+}
+
+.orange-text{
+  color: #FF8A00;
+}
+
+.orange-box:hover{
+  background-color: #F8A13F;
+}
+
+.pad{
+  padding-left: 2%;
+}
+
+.margin-top{
+  margin-top: 2%;
+}
+
+.borders {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 8px 6px -6px gray;
+  padding-bottom: 5px;
+  background-color: white;
+  height:auto;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 360px;
+}
+
+.list{
+  overflow: hidden;
+  box-shadow: 0 0 0 0 white;
+}
+
+
+
+.top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.inline-block {
+  padding-top: 2.5%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-bottom: 2.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 8px 6px -6px gray;
+  padding-bottom: 5px;
+}
+
+.aboutme {
+  width: 200px;
+  height: 50px;
+}
+
+.gap{
+  column-gap: 2rem;
+}
+
+.padding-top {
+  padding-top: 1%;
+  text-align: left;
+}
+
+.title-1 {
+  font-family: 'Galada', cursive;
+  color: #333333;
+  margin-left: 2%;
+}
+
+.accent-text {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  padding-left: 4%;
+  padding-top: 2%;
+}
+
+.padding {
+  margin-top: 7.5%;
+  font-family: 'Galada', cursive;
+  color: #EC4401;
+  text-decoration: none;
+}
+
+.padding:hover {
+  color: #EC4401;
+  text-decoration: none;
+}
+
+a {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.vr {
+    width:10px;
+    background-color:#000;
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+
+hr {
+  width: 100%;
+  text-align: center;
+  color: gray;
+}
+
+.row {
+  text-align: center;
+}
+
+.spacing {
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+
+.text-1 {
+  font-family: 'Merriweather', serif;
+  color: #333333;
+}
+
+.logo:hover{
+  transform: scale(1.075)
+}
+
+.title-center {
+  font-family: 'Galada', cursive;
+  color: #EC4401;
+  text-align: center;
+}
+.gray-box {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  background-color: #D5D2C8;
+}
+
+.profile-box {
+  background-color: #363636;
+  border-radius: 10px;
+  left: 50%;
+  right: 50%;
+  box-shadow: 0 8px 6px -6px gray;
+}
+
+.block {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0 8px 6px -6px gray;
+  float:left;
+  margin-bottom: 3%;
+  display: flex;
+}
+.container  {
+  text-align: center;
+  display: flex;
+}
+
+.wrapper{
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.player{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.extra-small{
+  font-size: smaller;
+}
+
+.margin{
+  margin: auto;
+  white-space: normal;
+}
+
+.react-video > div{
+  position: absolute;
+}
+
+.small-title {
+  font-family: 'Galada', cursive;
+  color: #EC4401;
+}
+
+col-3 {
+  left: 50%;
+  padding-bottom: 5%;
+}
+
+.bot-pad {
+  padding-bottom: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.left {
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+  left: center;
+  right: center;
+}
+
+.mid{
+text-align: center;
+vertical-align: middle;
+}
