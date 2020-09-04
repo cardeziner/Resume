@@ -10,9 +10,9 @@ const ProjectsComponent = props =>{
   return(
     <div className="bg-proj">
       <div>
-      <h1 className="green-title white col-4 mx-auto center bold">PROJECTS</h1>
+      <h1 className="green-title white col-xs-6 col-md-4 mx-auto center bold">PROJECTS</h1>
       <div className="row spacing">
-        <div className="col-4 gap">
+        <div className="col-xs-12 col-md-4 gap">
           <div className="borders"><br/>
             <a href="http://silver-spoon-reviews.herokuapp.com" target="_blank"><img className="circles-gr" src={ssr}/></a>
             <hr className ="center"/>
@@ -48,7 +48,7 @@ const ProjectsComponent = props =>{
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-xs-12 col-md-4">
           <div className="borders">
             <a href="http://friendtrip-bt.herokuapp.com" target="_blank"><img className="ft" src={ft}/></a>
             <hr className="center"/>
@@ -94,7 +94,7 @@ const ProjectsComponent = props =>{
             </div>
           </div>
         </div>
-        <div className="col-4 gap">
+        <div className="col-xs-12 col-md-4 gap">
           <div className="borders">
             <a href="http://peters-resume.herokuapp.com" target="_blank"><img className="pad-bot" src={pp}/></a>
             <hr className="center"/>

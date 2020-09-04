@@ -16,9 +16,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 const HomePageContainer = (props) =>{
   return(
     <div className="home-bg">
-      <h1 className="red-title white col-4 mx-auto center bold">MY RESUME</h1>
+      <h1 className="red-title white col-xs-6 col-md-4 mx-auto center bold">MY RESUME</h1>
       <div className="row spacing">
-        <div className="col-4">
+        <div className="col-xs-12 col-md-4">
           <div className="top border">
             <h1 className="bold">personal details</h1>
           </div>
@@ -43,7 +43,7 @@ const HomePageContainer = (props) =>{
               </div>
             </div>
           </div>
-        <div className="col-8 borders vert">
+        <div className="col-xs-12 col-md-8 borders vert">
           <div>
             <h1 className="bold padding-top aboutme">about me</h1><hr className="center"/>
             <h5 className="inline-block">Hello! My name is Peter Stevens and I am originally from Boston, MA and I have recently moved back to Denver. In my spare time, I like to golf, hike, go camping, and overall I love just spending time outdoors, so its no suprise why I moved back to Denver!  I have recently graduated from a full-stack development boot camp program at Launch Academy, and I am very excited to begin a new career in Software Development.</h5>

@@ -6,9 +6,9 @@ const EducationComponent = (props) =>{
   return(
     <div className="bg-school">
       <div>
-        <h1 className="yellow-title white col-4 mx-auto center bold">EDUCATION</h1>
+        <h1 className="yellow-title white col-xs-6 col-md-4 mx-auto center bold">EDUCATION</h1>
         <div className="row spacing">
-          <div className="col-6">
+          <div className="col-xs-12 col-md-6 div-bot">
             <div className="borders no-blur"><br/>
               <a href="http://www.msudenver.edu"><img className="circles" src={msulogo}/></a>
               <h3 className="bold"><br/>Metropolitan State University of Denver</h3>
@@ -57,7 +57,7 @@ const EducationComponent = (props) =>{
                 </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-xs-12 col-md-6">
             <div className="borders"><br/>
               <a href="http://www.launchacademy.com"><img className="circles" src={launchlogo}/></a>
               <h3 className="bold"><br/>Launch Academy - Full Stack Boot Camp</h3>

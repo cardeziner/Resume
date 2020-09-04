@@ -9,6 +9,13 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
 .background {
   background-color: #CCCCCC;
 }
@@ -248,6 +255,10 @@ h1 {
   padding-top: 1rem;
   width:76%;
   padding-bottom: .5rem;
+}
+
+.bot-div{
+  margin-bottom: 10px
 }
 
 .pad-bot:hover{
